@@ -1,6 +1,6 @@
 let fs = require("fs");
 
-const textOfGames = fs.readFileSync("./a.input.txt", "utf-8");
+const textOfGames = fs.readFileSync("./day2.input.txt", "utf-8");
 
 let arrayOfGames = textOfGames.split("\n");
 
